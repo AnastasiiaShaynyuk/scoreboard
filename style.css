@@ -1,0 +1,37 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+.soccer {
+  background-image: url(https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+}
+.opacity1 {
+  background: rgba(0, 10, 151, 0.6);
+  padding: 2em 1em;
+}
+.opacity2 {
+  background: rgba(0, 10, 151, 0.6);
+  padding: 0 5em 2em 5em;
+}
+h1 {
+  font-size: 4em;
+  text-shadow: rgb(250, 249, 247) 1px 0 6px;
+}
+.btn-op {
+  background: rgba(0, 10, 151, 0.6);
+  color: white;
+}
+
+.score-card {
+  background: #4F6AAE7A;
+  padding: 1em;
+  border: 2px solid;
+  min-width: 20vw;
+}
+p {
+  font-size: 10em;
+  text-shadow: rgb(250, 249, 247) 1px 0 6px;
+}

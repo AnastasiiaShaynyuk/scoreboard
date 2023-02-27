@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Scoreboard</title>
+</head>
+
+<body>
+  
+  <div class="container-fluid soccer">
+    <section class="row justify-content-end px-5 py-4">
+      <div class="col-1 btn btn-lg btn-danger text-uppercase" onclick="resetScore()">Reset</div>
+    </section>
+
+    <section class="row justify-content-center">
+      <div class="col-8 d-flex justify-content-evenly opacity1 text-white">
+        <h1>HOME</h1>
+        <h1>AWAY</h1>
+      </div>
+      <div class="col-8 d-flex justify-content-around opacity2 text-white mb-4">
+        <div class="rounded border-info score-card text-center">
+          <p id="home-score">00</p>
+        </div>
+        <div class="rounded border-info score-card text-center">
+          <p id="away-score">00</p>
+        </div>
+      </div>
+    </section>
+    <section class="row justify-content-center text-center py-4">
+        <div class="col-4">
+          <button class="btn btn-op btn-lg px-4" onclick="home1()">HOME +1</button>
+        </div>
+        <div class="col-4">
+          <button class="btn btn-op btn-lg px-4" onclick="away1()">AWAY +1</button>
+        </div>
+    </section>
+    <section class="row justify-content-center text-center py-4">
+      <div class="col-4">
+        <button class="btn btn-op btn-lg px-4" onclick="home3()">HOME +3</button>
+      </div>
+      <div class="col-4">
+        <button class="btn btn-op btn-lg px-4" onclick="away3()">AWAY +3</button>
+      </div>
+  </section>
+  </div>
+
+
+
+
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
